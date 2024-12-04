@@ -1,0 +1,171 @@
+body{
+
+  margin: 0px;
+  padding: 0px;
+  font-family:  Arial;
+  background-image: url('pt-house.jpg');
+  
+ width: 100%;
+ background-size:cover;
+ position: fixed;
+}
+
+
+nav{
+  display:flex;
+
+ 
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+  position: relative;
+}
+
+
+
+
+.home-nav{
+  color: #000;
+  font-size: 24px;
+  font-style:normal;
+  font-family: arial;
+  font-weight:bold;
+  display: flex;
+  margin-inline: 8px;
+  text-decoration: none;
+
+  align-items: justify;
+  justify-content: center;
+
+
+  position:relative;
+
+  margin-top: 100px;
+  
+
+}
+.home-nav:hover{
+  background-color:aliceblue;
+  box-shadow: 2px 2px 50px rgb(228, 132, 132);
+  box-sizing:0.23;
+  text-decoration: underline;
+  color:rgb(101, 54, 210);
+  text-transform:lowercase;
+  
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 6px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+
+
+}
+h1{
+
+  direction:right;
+  color: blue;
+  font-size:50px;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+  margin-bottom:80px ;
+}
+.view-website{
+
+  color:gold;
+  border: 2px solid aliceblue;
+  width: 120px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  position: absolute;
+  margin-inline-start: 200px;
+  border-width: 10px;
+ padding-top: 40px;
+ padding-bottom: 0px;
+  text-decoration: none;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  border-radius: 90px;
+  background-color: #fff;
+  
+  
+
+}
+
+.view-website:hover{
+
+background-color:rgb(47, 52, 56);
+  box-shadow: 2px 2px 50px rgb(228, 132, 132);
+  box-sizing:0.23;
+  text-decoration: underline;
+  color:rgb(101, 54, 210);
+  text-transform:lowercase;
+  box-shadow: 2px 2px 50px rgb(228, 132, 132);
+text-transform: capitalize;
+  
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 6px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.footer-deco{
+
+  border: 1px solid green;
+
+  margin-bottom:0px;
+  display: flex;
+  margin-top: 160px;
+  background-color:black;
+
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+
+
+
+}
+.footer-dec{
+
+
+  margin-top:100px;
+  margin-bottom: 20px;
+  color: gold;
+  align-items: center;
+  position: relative;
+  margin-inline-start: 20px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  
+  height: 0px;
+  text-transform: uppercase;
+
+}
+.footer-dec:hover{
+
+  
+  box-shadow: 2px 2px 20px rgb(213, 100, 100);
+  box-sizing:0;
+ 
+  color:rgb(0, 0, 0);
+
+  text-transform:lowercase;
+  
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 6px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  border:none ;
+  height: 30px;
+  background-color: #fff;
+
+
+}
